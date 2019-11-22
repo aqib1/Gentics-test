@@ -12,6 +12,7 @@ public class URLController {
 
 	@PostMapping("/scan")
 	public ResponseEntity<?> scanUrl(@RequestBody List<String> urls) {
+		
 		return null;
 	}
 }
